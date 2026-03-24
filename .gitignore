@@ -1,0 +1,54 @@
+# [Core] Direktori dan berkas internal Unity yang dihasilkan secara dinamis
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# [IDE] Berkas solusi dan proyek yang dihasilkan otomatis untuk VS Code / Visual Studio
+.vs/
+.idea/
+.vscode/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# [Meta] Abaikan berkas meta dari sistem yang di-generate otomatis
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# [Crash] Laporan kerusakan sistem Unity
+sysinfo.txt
+
+# [Builds] Ekstensi berkas kompilasi akhir (jangan dimasukkan ke repositori mentah)
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# [OS] Berkas sistem operasi bawaan Windows/Mac
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
